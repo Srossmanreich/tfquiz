@@ -2,12 +2,12 @@
   = f.error_notification
 
   .form-inputs
-    = f.input :t, length: 40
-    = f.input :f, length: 40
+    = f.input :t, label: 'True Version', input_html: { size: 100 }
+    = f.input :f, label: 'False Version', input_html: { size: 100 }
     = f.association :topic
     = f.input :domain
-    = f.input :public_comments
-    = f.input :private_comments
+    = f.input :public_comments, input_html: { rows: 5, cols: 100}
+    = f.input :private_comments, input_html: { rows: 5, cols: 100}
     = f.input :active
 
   .form-actions
