@@ -1,0 +1,14 @@
+= simple_form_for(@question) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :t
+    = f.input :f
+    = f.input :topic_id
+    = f.input :domain
+    = f.input :public_comments
+    = f.input :private_comments
+    = f.input :active
+
+  .form-actions
+    = f.button :submit
