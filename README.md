@@ -1,26 +1,18 @@
-Tfquiz
-================
+TRUE/FALSE SELF-QUIZ
+====================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Contributing
+------------
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+* Pick a story from our [Trello board backlog](https://trello.com/b/wgbIjbj1/tf-quiz)
+* Create a new branch with a descriptive name
+* Don't forget to write specs for it
+* When done, (1) send a pull request or (2) get a live code review and push to development
+* Notify bluemihai so he can merge into master and push into production
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
 
 Ruby on Rails
 -------------
-
 This application requires:
 
 - Ruby 2.2.3
@@ -28,23 +20,20 @@ This application requires:
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
 Issues
 -------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
+If you have a bug report or feature request, please submit an issue here.
 
 Credits
 -------
+Contributors: Mihai Banulescu
 
 License
 -------
+Use it, steal it.
+
+
+Rails Apps Composer
+-------------------
+This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
+provided by the [RailsApps Project](http://railsapps.github.io/).  Thank you!
