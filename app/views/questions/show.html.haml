@@ -8,7 +8,7 @@
   = @question.f
 %p
   %b Topic:
-  = @question.topic_id
+  = @question.topic.try(:name)
 %p
   %b Domain:
   = @question.domain

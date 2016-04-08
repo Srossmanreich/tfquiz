@@ -50,8 +50,8 @@ qs =
   },
   { 
     topic: databases,
-    t: "A primary key is optional for join tables",
-    f: "A primary key is required for all tables"
+    t: "In SQL, a primary key is optional for join tables",
+    f: "In SQL, A primary key is required for all tables"
   },
   { 
     topic: inheritance,
@@ -92,11 +92,6 @@ qs =
     topic: databases,
     t: "Foreign keys have names like client_id",
     f: "Foreign keys have names like id_client"
-  },
-  { 
-    topic: databases,
-    t: "has_and_belongs_to_many has been deprecated and you should not be used to express many-many associations",
-    f: "has_and_belongs_to_many is another perfectly valid way to express many-many associations"
   },
   { 
     topic: databases,

@@ -2,8 +2,8 @@
   = f.error_notification
 
   .form-inputs
-    = f.input :t
-    = f.input :f
+    = f.input :t, length: 40
+    = f.input :f, length: 40
     = f.association :topic
     = f.input :domain
     = f.input :public_comments
