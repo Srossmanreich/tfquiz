@@ -1,0 +1,10 @@
+%h3 Welcome to T/F Quiz!
+
+- if @topic
+  %h5= "Topic: #{@topic.name.titlecase}"
+
+%ul
+  %li Refresh page for a brand-new quiz, with new versions of the same T/F questions
+  %li Try hovering over [Answer]
+
+= render @questions

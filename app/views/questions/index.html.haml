@@ -1,32 +1,34 @@
-%h1 Listing questions
+%h1 Questions
 
-%table
-  %thead
-    %tr
-      %th T
-      %th F
-      %th Topic
-      %th Domain
-      %th Public comments
-      %th Private comments
-      %th Active
-      %th
-      %th
-      %th
-
-  %tbody
-    - @questions.each do |question|
-      %tr
-        %td= question.t
-        %td= question.f
-        %td= question.topic_id
-        %td= question.domain
-        %td= question.public_comments
-        %td= question.private_comments
-        %td= question.active
-        %td= link_to 'Show', question
-        %td= link_to 'Edit', edit_question_path(question)
-        %td= link_to 'Destroy', question, :method => :delete, :data => { :confirm => 'Are you sure?' }
+=render @questions
+/
+/ %table
+/   %thead
+/     %tr
+/       %th T
+/       %th F
+/       %th Topic
+/       %th Domain
+/       %th Public comments
+/       %th Private comments
+/       %th Active
+/       %th
+/       %th
+/       %th
+/
+/   %tbody
+/     - @questions.each do |question|
+/       %tr
+/         %td= question.t
+/         %td= question.f
+/         %td= question.topic_id
+/         %td= question.domain
+/         %td= question.public_comments
+/         %td= question.private_comments
+/         %td= question.active
+/         %td= link_to 'Show', question
+/         %td= link_to 'Edit', edit_question_path(question)
+/         %td= link_to 'Destroy', question, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 %br
 
